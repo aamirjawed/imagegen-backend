@@ -25,6 +25,40 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/imagegen'
             width: 500,
             height: 500,
             shape: 'circle'
+          },
+          {
+            type: 'text',
+            id: 'name',
+            label: 'Full Name',
+            placeholder: 'Enter name',
+            x: 540,
+            y: 900,
+            fontSize: 70,
+            color: '#333333',
+            textAlign: 'center',
+            fontWeight: 'bold'
+          },
+          {
+            type: 'text',
+            id: 'number',
+            label: 'Phone Number',
+            placeholder: 'Enter number',
+            x: 540,
+            y: 1000,
+            fontSize: 45,
+            color: '#666666',
+            textAlign: 'center'
+          },
+          {
+            type: 'text',
+            id: 'city',
+            label: 'City',
+            placeholder: 'Enter city',
+            x: 540,
+            y: 1060,
+            fontSize: 40,
+            color: '#888888',
+            textAlign: 'center'
           }
         ]
       },
@@ -45,6 +79,40 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/imagegen'
             width: 720,
             height: 720,
             shape: 'rectangle'
+          },
+          {
+            type: 'text',
+            id: 'name',
+            label: 'Name',
+            placeholder: 'Enter name',
+            x: 540,
+            y: 1100,
+            fontSize: 60,
+            color: '#a04245',
+            textAlign: 'center',
+            fontWeight: 'bold'
+          },
+          {
+            type: 'text',
+            id: 'number',
+            label: 'Phone',
+            placeholder: 'Enter number',
+            x: 540,
+            y: 1200,
+            fontSize: 40,
+            color: '#bb6a71',
+            textAlign: 'center'
+          },
+          {
+            type: 'text',
+            id: 'city',
+            label: 'City',
+            placeholder: 'Enter city',
+            x: 540,
+            y: 1280,
+            fontSize: 40,
+            color: '#bb6a71',
+            textAlign: 'center'
           }
         ]
       },
@@ -65,6 +133,40 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/imagegen'
             width: 1600,
             height: 1600,
             shape: 'rectangle'
+          },
+          {
+            type: 'text',
+            id: 'name',
+            label: 'Name',
+            placeholder: 'Recipient Name',
+            x: 1240, 
+            y: 2500,
+            fontSize: 140,
+            color: '#ec4899',
+            fontWeight: 'bold',
+            textAlign: 'center'
+          },
+          {
+            type: 'text',
+            id: 'number',
+            label: 'Number',
+            placeholder: 'Enter number',
+            x: 1240,
+            y: 2700,
+            fontSize: 80,
+            color: '#333333',
+            textAlign: 'center'
+          },
+          {
+            type: 'text',
+            id: 'city',
+            label: 'City',
+            placeholder: 'Enter city',
+            x: 1240,
+            y: 2850,
+            fontSize: 80,
+            color: '#333333',
+            textAlign: 'center'
           }
         ]
       }
